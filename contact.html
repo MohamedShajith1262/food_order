@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Foodie Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <section class="contact-details">
+            <h2>Restaurant Timings & Address</h2>
+            <p><strong>Address:</strong> 368, Aadhavan Street, Tirunelveli, Tamil Nadu, India.</p>
+            <p><strong>Timings:</strong></p>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 10:00 PM</li>
+                <li>Saturday - Sunday: 10:00 AM - 11:00 PM</li>
+            </ul>
+        </section>
+        <section class="order-confirmation">
+            <h2>Confirm Your Order</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="order-details">Order Details:</label>
+                    <textarea id="order-details" name="order-details" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit Order</button>
+            </form>
+            <p id="confirmation-message" class="confirmation-message"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>&copy; 2024 Foodie Kitchen</footer>
+</body>
+
+</html>
